@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '917849917350';
+const defaultOwner = '255697929318';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'TOHID-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '918930358452' ;  // put your number here
+global.pairingNumber = process.env.BOT_NUMBER || '255697929318' ;  // put your number here
 global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['917849917350', '918930358452']
+global.allowed = ['255697929318', '255697929318']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -86,7 +86,7 @@ global.tohidImg = [imagen1, imagen2]
 // Sticker WM
 global.premium = 'true'
 global.packname = 'TOHID-AI'
-global.author = 'Tohidkhan6332'
+global.author = 'PRINCE'
 global.menuvid = 'https://i.imgur.com/2Sp3cqD.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/Tohidkhan6332'
 global.dygp = 'https://whatsapp.com/channel/0029VaGyP933bbVC7G0x0i2T'
